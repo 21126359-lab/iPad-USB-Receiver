@@ -1,0 +1,11 @@
+name: iPadReceiver
+targets:
+  iPadReceiver:
+    type: application
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: [App]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.display.ipadreceiver
+      INFOPLIST_KEY_UILaunchScreen_Generation: true
+      CODE_SIGNING_ALLOWED: NO
